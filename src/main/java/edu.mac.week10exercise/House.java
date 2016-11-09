@@ -32,7 +32,7 @@ public class House {
                 }
             }
             child = (Child) ((LinkedList<?>) listChild).poll();
-            System.out.println("Child rings doorbell " + child.getName());
+            System.out.println( child.getName() + " rings doorbell " );
 
         }
         long duration = 100;
